@@ -32,7 +32,7 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           env: 
             - name: COLOR
-              value: "red"
+              value: "green"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
