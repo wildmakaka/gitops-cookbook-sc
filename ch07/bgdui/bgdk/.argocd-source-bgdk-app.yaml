@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - webmakaka/bgd:1.0.0
+  - webmakaka/bgd:17.0.0
